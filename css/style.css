@@ -19,3 +19,18 @@ header nav li{
   text-align: center;
 }
 
+main{
+  display: flex;
+  height: 100vh;
+}
+
+main .side-bar {
+  flex: 2;
+  background-color: aquamarine;
+}
+
+main .main-page {
+  flex: 8;
+  background-color: blueviolet;
+}
+
