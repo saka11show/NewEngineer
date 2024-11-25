@@ -1,0 +1,21 @@
+header {
+  display: flex; /* 要素を横並びに配置　*/
+  justify-content: space-between; /* 要素を左右に配置　 */
+  align-items: center; /* 垂直方向に中央揃え　*/
+
+  padding: 1%;
+}
+
+.nav-item{
+  display: flex;
+}
+
+header nav li{
+  list-style-type: none;
+  background-color: aqua;
+  margin: 10px;
+  color: white;
+  font-size: 15px;
+  text-align: center;
+}
+
